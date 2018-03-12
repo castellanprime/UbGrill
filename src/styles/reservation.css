@@ -1,0 +1,250 @@
+.mainappcontainer-header-img-reservation {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 25%;
+}
+
+.dateheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.yearbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.35rem;
+  width: 25%;
+}
+
+.calendar-day-container {
+  width: 9rem;
+  height: 9rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.day-number {
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.icon-booked {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bd/Checkmark_green.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: center;
+  width: 50%;
+  height: 20%;
+}
+
+.icon-unavailble {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/61/Xmark01.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: center;
+  width: 50%;
+  height: 20%;
+}
+
+.icon-cannotbook {
+  background: gray;
+  align-self: center;
+  width: 20%;
+  height: 20%;
+  margin-bottom: 45%;
+}
+
+.icon-notyetbooked {
+  background: white;
+  border: 3px solid black;
+  width: 20%;
+  height: 20%;
+  margin-bottom: 5%;
+  align-self: center;
+}
+
+.reservation-cmd-switch {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: end;
+}
+
+.reservation-cmd-switch:hover {
+  border: 1px solid black;
+  background: gray;
+}
+
+.reservation-cmd-switch a {
+  font-size: 3rem;
+  color: white;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.calendar-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100%;
+}
+
+.reservations-details-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.selected-reservation-day {
+  width: 35%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 15%;
+  align-items: center;
+  background: white;
+  margin-right: 3%;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 1));
+}
+
+.selected-reservation-day div {
+  font-size: 3.5rem;
+}
+
+.reservation-times-container {
+  width: 50%;
+  height: 22rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.add-times-container {
+  width: 100%;
+  height: 40%;
+  padding: 0;
+}
+
+.add-times-container-inner {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.add-times-cmd-box {
+  display: flex;
+  width: 100%;
+}
+
+.add-times-cmd-box-inner {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  margin-right: 5%;
+}
+
+.add-times-cmd-box-inner input {
+  width: 40%;
+}
+
+.add-times-cmd-errs {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.view-times-container {
+  width: 100%;
+  height: 15%;
+  padding: 0;
+}
+
+.times-item-container-outer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.times-item-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+
+.times-item-container-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+}
+
+.times-item-container-inner div {
+  width: 40%;
+}
+
+.check-reservation-btn {
+  font-size: 1.3rem;
+  height: 20%;
+}
+
+.subpage-cmd-box {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.submit-reservation-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  height: 95%;
+  width: 30%;
+  margin-right: 4%;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.disabled {
+  background-color: darkgrey;
+}
+
+.submit-reservation-btn-img {
+  background-image: url(http://www.pvhc.net/img164/axxoykbyefechtkdjrhs.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 25%;
+}
+
+.submit-reservation-btn-title {
+  font-size: 1.35rem;
+}

@@ -1,0 +1,29 @@
+.signupFormGroup {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 80%;
+  height: 80%;
+}
+
+.signupFormGroup div {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 6%;
+}
+
+.signupFormGroup div:first-of-type {
+  margin-top: 2%;
+}
+
+label {
+  font-size: 1.15rem;
+}
+
+.signupFormGroup div input {
+  border-style: inset;
+  border-width: 2px;
+  border-color: gray;
+  background-color: lightgrey;
+  color: #111;
+  font-size: 1.15rem;
+}
